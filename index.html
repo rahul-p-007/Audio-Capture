@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Audio Recorder</title>
+    <!-- style -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <canvas id="visualizer"></canvas>
+      <div class="buttons">
+        <button id="recordButton" class="btn-1">
+          Record<i class="bx bxs-microphone" id="play"></i>
+          <i class="bx bx-pause-circle" id="pause"></i>
+        </button>
+        <button id="stopButton" disabled class="btn-2">Stop</button>
+      </div>
+    </div>
+    <!-- script -->
+    <script src="./script.js"></script>
+  </body>
+</html>
